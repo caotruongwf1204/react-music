@@ -1,0 +1,34 @@
+.play-list {
+    position: relative;
+    padding: 150px 100px;
+}
+.play-list h1{
+    color: #645cf4;
+    font-size: 56px;
+}
+
+.play-list-song {
+    width: 100%;
+    height: 100%;
+    padding-left: 40px;
+    color: white;
+}
+.play-list-item {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 5px;
+}
+.play-list-Ele {
+    display: flex;
+    align-items: center;
+}
+.play-list-img {
+    width: 50px;
+    height: 50px;
+}
+.play-list-title {
+    margin: 0 10px;
+}

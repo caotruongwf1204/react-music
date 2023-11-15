@@ -1,5 +1,5 @@
 
-// import './App.css'
+import './App.css'
 
 import PlayerProvider from "./features/context/PlayerProvider";
 import Playlist from "./features/playlist/Playlist";
@@ -10,8 +10,8 @@ function App() {
 
   return (
     <PlayerProvider>
-      <Player></Player>
       <Playlist></Playlist>
+      <Player></Player>
     </PlayerProvider>
   )
 }

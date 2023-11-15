@@ -2,7 +2,7 @@ export const songs = [{
         id: 1,
         title: "Chiếc khăn gió ấm",
         artist: "Khánh Phương",
-        durations: 266,
+        duration: 266,
         cover: "",
         thumbnail: "loi-bai-hat-chiec-khan-gio-am-1.jpg",
         background: "https://img.meta.com.vn/Data/image/2020/10/30/loi-bai-hat-chiec-khan-gio-am-al.jpg",
@@ -20,12 +20,12 @@ export const songs = [{
     },
     {
         id: 3,
-        tittle: " Hey Jude ",
+        title: " Hey Jude ",
         artist: "The Beatles",
         duration: 489,
         cover: "",
-        thumbail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQafH60WXVIFFE2VyhWLT2nyEIAiJW2dU7nEdE3Y9r2Vtiu1SgSuEZzicY3DNpfWg9vjxQ&usqp=CAU",
-        background: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQafH60WXVIFFE2VyhWLT2nyEIAiJW2dU7nEdE3Y9r2Vtiu1SgSuEZzicY3DNpfWg9vjxQ&usqp=CAU",
+        thumbnail: "https://i1.sndcdn.com/artworks-000469443258-iaoeym-t500x500.jpg",
+        background: "https://mediaproxy.salon.com/width/1200/https://media.salon.com/2018/02/beatles-live.jpg",
         src: "The Beatles - Hey Jude.mp3"
     },
     {
@@ -33,9 +33,9 @@ export const songs = [{
         title: "Green Green Grass",
         artist: "George Ezra",
         duration: 196,
-        cover: "public/Green-Green-Grass_500x500.jpg",
-        thumbnail: "",
-        background: "Green-Green-Grass_500x500.jpg",
+        cover: "",
+        thumbnail: "https://i1.sndcdn.com/artworks-5ixDkvflYWHh-0-t500x500.jpg",
+        background: "https://cdn.apollo.audio/one/media/6273/9b44/2171/c618/2de6/605c/green-green-grass.jpg?quality=80&format=jpg",
         src: "George Ezra  Green Green Grass Official Video_320kbps.mp3"
     },
     {

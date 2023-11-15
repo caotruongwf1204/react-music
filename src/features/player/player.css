@@ -1,0 +1,67 @@
+.player {
+    position: absolute;
+    top: 150px;
+    right: 40px;
+    width: 600px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.player h1 {
+    color: white;
+
+}
+
+.player-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    animation: xoayvong 10s linear 0s infinite;
+}
+
+.player-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 20px 0;
+}
+
+.player-btn button {
+    color: white;
+
+}
+
+.player-volume {
+    position: absolute;
+    right: 0;
+}
+.volume-input {
+    width: 80px;
+
+}
+.input-time {
+    width: 400px;
+    height: 5px;
+}
+
+
+
+
+
+
+
+
+@keyframes xoayvong {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

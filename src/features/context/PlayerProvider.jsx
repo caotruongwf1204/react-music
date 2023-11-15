@@ -5,6 +5,7 @@ import { playerReducer } from "../reducer/playerReducer";
 const initialPlayState = {
   playing: false,
   currentTime: 0,
+  volume: 1,
   currentSongIndex: 0,
   loop: false,
   shuffle: false,
